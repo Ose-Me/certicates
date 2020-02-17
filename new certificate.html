@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title></title>
+    <meta charset="windows-1252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        html {
+            display: block;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            position: relative;
+            background-image: url("https://tamsy.ncc.gov.ng/assets/images/certificateBackground.jpg");
+            background-size: 100vw;
+            background-repeat: no-repeat;
+            min-height: 135vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="text-align: center;position:absolute;top: 15vw;left: 24vw;">
+        <br />
+        <h1 style="text-align:center;color: darkblue;font-size: 2.5vw;">NIGERIAN COMMUNICATIONS COMMISSION</h1>
+        <h4 style="font-size: 1.1vw;margin-top: 1.8vw;">PLOT 423, AGUIYI IRONSI STREET, MAITAMA DISTRICT, ABUJA, NIGERIA.
+        </h4>
+        <h2 style="font-size: 2.2vw;margin:1.8vw 0 1.8vw 0;">GRANT OF EQUIPMENT AUTHORIZATION</h2>
+        <h3 style="color: darkblue;font-size: 1.7vw;"><i>CERTIFICATION</i></h3>
+        <h2 style="font-size: 2vw;margin: 1.8vw 0 1.8vw 0;"><b>FOR</b></h2>
+    </div>
+
+    <div style="position: absolute;top: 40vw;left:35vw;text-align:center;font-size: 1.5vw;">
+        <h3 style="margin: 2vw 0;font-size: 1.5vw;margin-bottom: 2vw;">
+            <b>${companyName}</b><br/>
+            ${contactAddress}
+        </h3>
+        <b>Date of Grant:</b> ${dateofEVCApproval} <br />
+        <b>Date of Issuance:</b> Wed Feb 08 08:26:07 WAT 2017
+    </div>
+
+    <div style="position: absolute;top: 36vw;left: 43vw; font-size: 1.5vw; margin-top: 10px;">
+        <i>NOT TRANSFERABLE</i>
+    </div>
+
+    <table style="position:absolute;top: 53vw;margin:3vw 20vw;border-bottom: 1px solid black;font-size: 1.5vw;text-align: justify;width: 60vw;">
+        <tr>
+            <td style="padding-left: 10px;">
+                EQUIPMENT AUTHORIZATION is hereby issued to the named GRANTEE, and is VALID ONLY for the equipment
+                identified hereon for use under the Commission's Rules and Regulations which is not limited to the rules
+                listed below.
+            </td>
+        </tr>
+    </table>
+
+    <table style="position: absolute;top: 66vw;margin-left: 35vw; border-spacing: 8px;font-size: 1.5vw;">
+        <tr>
+            <td style="padding-left: 10px;"><b>NCC IDENTIFIER No.:</b></td>
+            <td><b>${identifierNumber}</b></td>
+        </tr>
+
+        <tr>
+            <td style="padding-left: 10px;"><b>Equipment Type:</b></td>
+            <td>${equipmentTypeName}</td>
+        </tr>
+
+        <tr>
+            <td style="padding-left: 10px;"><b>Model(s):</b></td>
+            <td>${models}</td>
+        </tr>
+
+        <tr>
+            <td style="padding-left: 10px;"><b>Manufacturer:</b></td>
+            <td>${manufacturer}</td>
+        </tr>
+    </table>
+
+    <br />
+
+    <table style="position: absolute;top: 85vw;margin-left: 20vw; text-align: justify; width: 65vw; font-size: 1.8vw">
+        <tr>
+            <td style="padding-left: 10px;">The equipment has been found to comply with the Nigerian Communications
+                Commission's standards and therefore approved for connection to the Nigerian Telecommunication Network,
+                or for use in Nigeria</td>
+        </tr>
+    </table>
+
+    <br />
+    <table style="position: absolute;top: 100vw;margin-left: 18vw; width: 70vw; font-size: 1.3vw; text-align: center">
+        <tr>
+            <td> <img src="${ceo}" width="70" /></td>
+            <td style="padding:0 18vw;"></td>
+            <td> <img src="${director}" width="70" /></td>
+        </tr>
+
+        <tr>
+            <td style="border-top: 1px solid black; padding-left: 10px;"><b>Chief Executive Officer</b></td>
+            <td></td>
+            <td style="border-top: 1px solid black; text-align: center"><b>Director, Technical Standards and Network
+                    Integrity</b></td>
+        </tr>
+    </table>
+
+    <br />
+    <div style="position: absolute;top:120vw;left: 30%;">
+        <p style="font-size: 1vw; text-align: center">In correspondence concerning this grant, please refer to the
+            NCC IDENTIFIER and Date of grant.</p>
+    </div>
+</body>
+</html>
